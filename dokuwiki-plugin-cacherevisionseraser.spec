@@ -10,6 +10,7 @@ Source0:	http://ph0x.drunkencoders.com/dokuwikiplugin/dokuwiki_plugin_cacherevis
 # Source0-md5:	16a5ecef695bc41b07d3ae397f0098ea
 Source1:	dokuwiki-find-lang.sh
 URL:		http://wiki.splitbrain.org/plugin:cacherevisionseraser
+BuildRequires:	unzip
 Requires:	dokuwiki >= 20061106
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
